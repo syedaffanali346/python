@@ -1,0 +1,18 @@
+pip install virtualenv
+
+python -m venv .venv
+
+.\.venv\Scripts\activate
+
+pip install pymongo
+py -m pip install Django
+
+pip list
+
+pip list > requirements.txt
+
+pip uninstall pymongo
+
+pip list
+
+deactivate
